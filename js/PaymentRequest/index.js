@@ -409,13 +409,13 @@ export default class PaymentRequest {
 
   _removeEventListeners() {
     // Internal Events
-    this._userDismissSubscription.remove()
-    this._userAcceptSubscription.remove()
+    // this._userDismissSubscription.remove()
+    // this._userAcceptSubscription.remove()
 
-    if (IS_IOS) {
-      this._shippingAddressChangeSubscription.remove()
-      this._shippingOptionChangeSubscription.remove()
-    }
+    // if (IS_IOS) {
+    //   this._shippingAddressChangeSubscription.remove()
+    //   this._shippingOptionChangeSubscription.remove()
+    // }
   }
 
   // https://www.w3.org/TR/payment-request/#onshippingaddresschange-attribute
